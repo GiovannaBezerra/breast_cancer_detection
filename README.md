@@ -9,15 +9,15 @@ In this project, a machine learning model was created to classify the prognosis 
 
 ## Table Of Content  
 
-- [Goals and objectives](#goals)  
+- [Goals and objectives](#goals-and-objectives)  
 - [How to use](#how-to-use)  
 - [Project steps](#project-steps)  
 - [Results](#results)  
 - [Notes and Considerations](#notes-and-considerations)  
 
-## Goals and objectives
+## Goals and objectives  
 
-The intention of this project is to answer follow questions with this analysis: 
+The intention of this project is to answer follow questions: 
 >   1. Which features are more influential in prognosis?  
 >   2. Which machine learning model presents the highest accuracy in determining prognosis?  
 >   3. What is the value of this accuracy? 
@@ -62,7 +62,7 @@ Five models were evaluated for performance for three dataset configurations (ori
 - Decision Tree
 - Naive Bayes
 - Support Vector Machine
-- 
+
 ![model-result](https://user-images.githubusercontent.com/44107852/214923667-c69b8c2c-f0dc-4994-8469-99d3e681f911.jpg)
 
 The results suggest that better model is ScaledLR, it means **Logistic Regression for Standardized dataset**, wich accuracy mean reaches **0.958261**
@@ -80,7 +80,7 @@ print("Test accuracy: %f" % accuracy_score(Y_test, predictions))
 ```
 Test accuracy: 0.973684
 
-Finally the confusion matrix show us a comparative performance between true labels and predicted labels:
+Finally the confusion matrix show us a comparative performance between true labels and predicted labels.
 
 ![confusion-matrix](https://user-images.githubusercontent.com/44107852/214923910-379651e1-fbb2-42f7-83c7-ac8cd3c82fa6.jpg)
 
